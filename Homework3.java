@@ -17,6 +17,6 @@ public class Homework3 {
         // getNumericValue()
         int cc = Character.getNumericValue(c);
         System.out.println(cc);
-        
+
     }
 }
