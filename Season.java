@@ -10,27 +10,13 @@ public class Season {
 
         int date = sc.nextInt();
 
-        if (date == 1)
+        if (date >= 1 && date <= 2)
             System.out.print("Зима");
-        else if (date == 2)
-            System.out.print("Зима");
-        else if (date == 3)
+        else if (date >= 3 && date <= 5)
             System.out.print("Весна");
-        else if (date == 4)
-            System.out.print("Весна");
-        else if (date == 5)
-            System.out.print("Весна");
-        else if (date == 6)
+        else if (date >= 6 && date <= 8)
             System.out.print("Лето");
-        else if (date == 7)
-            System.out.print("Лето");
-        else if (date == 8)
-            System.out.print("Лето");
-        else if (date == 9)
-            System.out.print("Осень");
-        else if (date == 10)
-            System.out.print("Осень");
-        else if (date == 11)
+        else if (date >= 9 && date <= 11)
             System.out.print("Осень");
         else if (date == 12)
             System.out.print("Зима");
@@ -40,4 +26,5 @@ public class Season {
         sc.close();
     }
 }
+
 
