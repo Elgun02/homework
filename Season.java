@@ -8,7 +8,7 @@ public class Season {
 
         System.out.print("Введите значение месяца: ");
 
-        int date = sc.nextInt();
+        byte date = sc.nextByte();
 
         if (date >= 1 && date <= 2)
             System.out.print("Зима");
