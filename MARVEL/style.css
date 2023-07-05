@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://cdn.wallpapersafari.com/3/84/fQh934.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.h1-stroke{
+    width: 100%;
+}
+
+.h1-black{
+    margin-left: 691px;
+    float: left;
+    color: #1e272e;
+}
+
+.h1-red{
+    color: rgb(231, 53, 73);
+}
+
+h2, h3{
+    color: rgb(231, 53, 73);
+    margin-bottom: 10px;
+}
+
+h3{
+    margin-left: 20px;
+}
+
+.heroes-block,
+.film-block{
+    background-color: #1e272e;
+    width: 500px;
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.film-block{
+    height: 380px;
+    width: 250px;
+    float: right;
+    margin-right: 15px;
+    background-color: unset;
+    border: 2px solid rgb(231, 53, 73);
+}
+
+.heroes-info{
+    background-color: #95a5a6;
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+    margin-top: 10px;
+}
+
+.films-table, th, td{
+    color: #bdc3c7;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+th, td{
+    padding: 5px;
+}
+
+.comics-block{
+    background-color: #1e272e;
+    width: 500px;
+    height: 245px;
+    margin-left: 15px;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 3px;
+}
+
+.comics-image{
+    width: 90%;
+    height: 190px;
+    border-radius: 25px;
+
+}
+
+.comics-block img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+
+.comics-text{
+    color: #bdc3c7;
+    text-align: center;
+}
+
+.spider-block{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.iron-block{
+    height: 100%;
+    width: 30%;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.thor-block{
+    width: 30%;
+    height: 100%;
+    float: right;
+    margin-top: 5px;
+}
+
+.heroes-logo{
+    float: right;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-top: 155px;
+    width: 250px;
+    border: 2px dashed rgb(231, 53, 73);
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 10px;
+    margin-left: 17px;
+    margin-right: 10px;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: transform 0.4s;
+}
