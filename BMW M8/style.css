@@ -122,11 +122,8 @@
     border-radius: 20px;
 }
 
-.h2Bottom, .m5h2{
-    font-family: system-ui, sans-serif;
-}
-
 .m5h2{
+    font-family: system-ui, sans-serif;
     text-shadow:0 0 1ex red;
     margin-bottom: 15px;
     color: white;
@@ -178,12 +175,6 @@
     padding-left: 100px;
 }
 
-.h2Bottom{
-    color: white;
-    text-shadow: red 1px 1px;
-    margin-bottom: 20px;
-    margin-left: 25px;
-}
 
 .lcb-h3{
     color: white;
